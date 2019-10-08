@@ -7,6 +7,7 @@
     <groupId>cz.vse.java.adventura</groupId>
     <artifactId>karkulka</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <name>Karkulka</name>
 
     <dependencies>
         <dependency>
