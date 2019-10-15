@@ -45,6 +45,10 @@ public class Start extends Application
         Scene scene = new Scene(rootComponent);
         primaryStage.setScene(scene);
 
+        IHra hra = new Hra();
+        Controller controller =loader.getController();
+        controller.setHra(hra);
+
         primaryStage.setTitle("Karkulčino dobrodružství");
         InputStream iconStream = getClass().getResourceAsStream("/ikona.png");
         Image icon = new Image(iconStream);
